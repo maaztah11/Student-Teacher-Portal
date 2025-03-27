@@ -1,0 +1,64 @@
+
+Memory updated
+Here’s a focused 10-day roadmap for your project:
+
+Day 1: Database Models
+Goal: Design the database models for your app.
+Tasks:
+Define models for Teacher, Student, Classroom, Assignment, Submission, and Announcement.
+Set relationships between models (e.g., Teacher → Classroom, Classroom → Student).
+Add necessary fields like title, description, due_date, etc.
+Use Django’s built-in user model for authentication but extend it if necessary.
+Day 2: Admin Panel Customization
+Goal: Make the admin panel user-friendly for testing.
+Tasks:
+Register all models in the admin panel.
+Add custom filters and search fields for easier management.
+Use ModelAdmin to display key fields in the list view.
+Day 3: Teacher Features - Part 1
+Goal: Implement features for teachers.
+Tasks:
+Create a dashboard for teachers to view and manage their classrooms.
+Add functionality to create classrooms and invite students via unique codes.
+Build forms for creating assignments.
+Day 4: Teacher Features - Part 2
+Goal: Complete teacher-side functionalities.
+Tasks:
+Allow teachers to post announcements for their classrooms.
+Enable teachers to view submissions for assignments.
+Add grading functionality for submitted assignments.
+Day 5: Student Features - Part 1
+Goal: Implement basic student functionalities.
+Tasks:
+Create a dashboard for students to see their enrolled classrooms.
+Add functionality for students to join classrooms via codes.
+Build a page to display classroom announcements.
+Day 6: Student Features - Part 2
+Goal: Complete student-side functionalities.
+Tasks:
+Enable students to view assignments for their classrooms.
+Allow students to upload submissions for assignments.
+Show assignment grades and feedback.
+Day 7: Notifications and Messaging
+Goal: Add real-time notifications or simple messaging features.
+Tasks:
+Implement notifications for new announcements or assignments using Django signals.
+Build a simple messaging feature between teachers and students in a classroom.
+Day 8: Bootstrap and UI Enhancements
+Goal: Polish the frontend with Bootstrap.
+Tasks:
+Style the dashboard pages for both students and teachers.
+Add modals for forms (e.g., assignment creation, classroom joining).
+Ensure all pages are mobile-responsive.
+Day 9: Testing and Debugging
+Goal: Ensure the app is error-free and works as expected.
+Tasks:
+Write unit tests for your models and views.
+Test all functionalities manually (registration, login, assignment submission, etc.).
+Fix any bugs you encounter.
+Day 10: Deployment and Documentation
+Goal: Make the app production-ready and document it.
+Tasks:
+Set up a production database (e.g., PostgreSQL).
+Deploy the app on a hosting platform (e.g., PythonAnywhere, Heroku).
+Write a README file with details about the app, its features, and how to set it up locally.

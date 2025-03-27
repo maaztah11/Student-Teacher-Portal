@@ -1,0 +1,7 @@
+
+Layout Manager	Constructor Options
+BorderLayout	BorderLayout() or BorderLayout(int hgap, int vgap)
+FlowLayout	FlowLayout(), FlowLayout(int align), or FlowLayout(int align, int hgap, int vgap)
+GridLayout	GridLayout(), GridLayout(int rows, int cols), or GridLayout(int rows, int cols, int hgap, int vgap)
+BoxLayout	BoxLayout(Container target, int axis)
+GridBagLayout	GridBagLayout()
